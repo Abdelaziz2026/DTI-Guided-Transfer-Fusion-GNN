@@ -118,6 +118,7 @@ Diagnosis-excluded PubMedBERT clinical embedding ---------------------+
                                                                       v
                                                                NC vs AD output
 
+```
 ## Important implementation and reproducibility notes
 
 The manuscript describes DTI and rs-fMRI as modality-specific cohorts, with final fusion restricted to subjects shared by the two modalities. The current public `main_single_ablation()` entry point first constructs the paired subject intersection for the selected task and then passes that paired subset into the multimodal runner. Therefore, **this exact executable entry point should be described as the current NC-vs-AD paired-subject implementation rather than as a byte-for-byte reproduction of every cohort-level experiment reported in the manuscript**.
