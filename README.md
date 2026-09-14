@@ -5,8 +5,6 @@
 
 DGTF is a multimodal graph-learning framework for Alzheimer's disease (AD) diagnosis that uses **DTI-derived structural connectivity (SC)** to guide **rs-fMRI-derived functional connectivity (FC)** learning. The framework estimates region-level relevance from the DTI branch, transfers the resulting structural weights to anatomically aligned rs-fMRI nodes, preserves the complete graph topology, and combines structural, functional, and clinical representations for prediction.
 
-> **Current release scope.** The executable entry point in `demo.py` is intentionally kept exactly as supplied and is configured for the **NC vs AD** `dgtf_full` experiment. The Python implementation has not been altered in this documentation revision.
-
 ## Method overview
 
 The manuscript formulation and the corresponding implementation are organized around the following stages.
