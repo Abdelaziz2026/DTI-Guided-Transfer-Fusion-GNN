@@ -1,4 +1,4 @@
-# Structural Connectivity-Guided Functional Graph Learning for Multimodal Alzheimer's Disease Diagnosis
+# Diffusion Tensor Imaging-Guided Transfer Fusion Graph Neural Network for Multimodal Alzheimer's Disease Diagnosis
 
 This repository provides the implementation of **DGTF**, a DTI-guided transfer fusion graph-learning framework for multimodal Alzheimer's disease (AD) diagnosis and mild cognitive impairment (MCI) staging.
 
