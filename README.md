@@ -1,5 +1,11 @@
 # Diffusion Tensor Imaging-Guided Transfer Fusion Graph Neural Network (DGTF)
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-Framework-EE4C2C?logo=pytorch&logoColor=white)
+![PyTorch Geometric](https://img.shields.io/badge/PyTorch%20Geometric-GNN-3C2179)
+![ADNI](https://img.shields.io/badge/Data-ADNI-2E8B57)
+![Research Code](https://img.shields.io/badge/Status-Research%20Code-28A745)
+
 DGTF is a multimodal graph-learning framework for Alzheimer's disease (AD) diagnosis. It uses **diffusion tensor imaging (DTI)-derived structural connectivity (SC)** to guide **resting-state functional MRI (rs-fMRI)-derived functional connectivity (FC)** learning and combines imaging and clinical information for final prediction.
 
 This repository contains the **NC vs AD** implementation of the DGTF framework.
