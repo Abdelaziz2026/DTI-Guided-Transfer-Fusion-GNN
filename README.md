@@ -122,35 +122,6 @@ Diagnosis-excluded PubMedBERT clinical embedding ---------------------+
                                                                       |
                                                                       v
                                                                NC vs AD output
-```
-
-## Current NC-vs-AD runner configuration
-
-The public `demo.py` entry point is kept unchanged and currently uses:
-
-| Setting | Value |
-|---|---:|
-| Task | `NC_AD` |
-| Configuration | `dgtf_full` |
-| DTI threshold | 0.1 |
-| rs-fMRI threshold | 0.1 |
-| Selected nodes `K` | 25 |
-| Reweighting factor `gamma` | 2.5 |
-| GAT layers | 3 |
-| Hidden dimension | 128 |
-| Attention heads | 8 |
-| Learning rate | 0.001 |
-| Batch size | 8 |
-| GNN epochs | 120 |
-| Fusion epochs | 120 |
-| DTI CV splits | 10 |
-| rs-fMRI CV splits | 10 |
-| Fusion repeats | 10 |
-| Fusion validation fraction | 0.20 |
-| Outer iterations | 10 |
-| Random seed | 42 + iteration index |
-
-The optimizer is AdamW. Weighted cross-entropy is used in the multimodal training path. The code also applies gradient clipping, `ReduceLROnPlateau`, validation-loss early stopping, and restoration of the best model weights.
 
 ## Important implementation and reproducibility notes
 
