@@ -1,8 +1,5 @@
 # Diffusion Tensor Imaging-Guided Transfer Fusion Graph Neural Network (DGTF)
 
-**Official implementation of the DGTF framework described in:**  
-*Structural Connectivity-Guided Functional Graph Learning for Multimodal Alzheimer's Disease Diagnosis*
-
 DGTF is a multimodal graph-learning framework for Alzheimer's disease (AD) diagnosis that uses **DTI-derived structural connectivity (SC)** to guide **rs-fMRI-derived functional connectivity (FC)** learning. The framework estimates region-level relevance from the DTI branch, transfers the resulting structural weights to anatomically aligned rs-fMRI nodes, preserves the complete graph topology, and combines structural, functional, and clinical representations for prediction.
 
 ## Method overview
