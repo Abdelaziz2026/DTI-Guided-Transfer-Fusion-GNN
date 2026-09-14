@@ -153,20 +153,6 @@ The implementation includes deterministic seed handling for Python/NumPy/PyTorch
 
 Dataset redistribution is **not** included in this repository. Users should obtain ADNI data through the appropriate ADNI access procedures and comply with its data-use requirements.
 
-## 📝 Citation
-
-If you use this implementation, please cite the associated manuscript:
-
-```bibtex
-@article{abdelaziz2026dgtf,
-  title   = {Structural Connectivity-Guided Functional Graph Learning for Multimodal Alzheimer's Disease Diagnosis},
-  author  = {Abdelaziz, Mohammed and Wang, Changmiao and Gorriz, Juan M. and Elazab, Ahmed},
-  year    = {2026},
-  note    = {Manuscript}
-}
-```
-
-Update the citation with the final journal, volume, pages, and DOI after publication.
 
 ## 📜 License
 
